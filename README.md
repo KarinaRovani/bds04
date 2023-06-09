@@ -24,15 +24,15 @@ In this system, only the reading routes (GET) of events and cities are public (n
 - Token JWT - authentication e authorization
 - Spring Security
 
-# City Validations:
+## City Validations:
 - Name cannot be empty
 
-# Event Validations:
+## Event Validations:
 - Name cannot be empty
 - Date cannot be passed
 - City cannot be null
 
-# ResourceServerConfig authorization rules described in natural language.
+## ResourceServerConfig authorization rules described in natural language.
 - Login and H2 endpoints must be public
 - GET endpoints for /cities and /events must be public
 - POST endpoint of /events must require ADMIN or CLIENT login
@@ -45,7 +45,6 @@ In this system, only the reading routes (GET) of events and cities are public (n
 - PostMan
 - PostgreSQL 12
 - PgAdmin
-
 
 
 ## Back end
